@@ -1,0 +1,10 @@
+print("Temperature Warning System")
+
+temp = input("Enter temperature: ")
+
+if temp < "0" and temp > "100":
+    print("Too cold or too hot??")
+elif temp >= "0" or temp <= "100" and temp == "50":
+    print("Perfect maybe?")
+else:
+    print("Weather broken I guess")
