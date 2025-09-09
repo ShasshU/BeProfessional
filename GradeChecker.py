@@ -15,9 +15,7 @@ if grade.isdigit(): #ensure that the grade variable is an integer
         print("You scored a D! This isn't passing, so try your best to get it up")
     elif grade < 60: #checks if you scored a 60 or below
         print("You scored an F. Study hard and try to get this score up!")
-    elif grade < 0:
-        print("Please enter a number between 0-100")
     else: 
-        print("Error")
+        print("Please enter a number 1-100")
 else:
-    print("Pleae enter a number 1-100")
+    print("Please enter a number 1-100") #occurs when grade is not an integer 0-100
